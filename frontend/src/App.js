@@ -8,7 +8,8 @@ import Dashboard from './Components/Dashboard/Dashboard';
 import Income from './Components/Income/Income';
 import Expenses from './Components/Expenses/Expenses';
 import PredictionPage from './Components/PredictionPage/PredictionPage';
-import NotesPage from './Components/NotesPage/NotesPage';  // <-- Import the new NotesPage component
+import NotesPage from './Components/NotesPage/NotesPage';
+import ExpenseChartsPage from './Components/ExpenseChartsPage/ExpenseChartsPage'; // <-- Import the new ExpenseChartsPage component
 import { useGlobalContext } from './context/globalContext';
 
 function App() {
@@ -31,8 +32,11 @@ function App() {
     if (active === 5) {
       return <PredictionPage />;
     }
-    if (active === 6) {  // <-- Add condition for the Notes page
+    if (active === 6) {
       return <NotesPage />;
+    }
+    if (active === 7) {  // <-- Add condition for the ExpenseChartsPage
+      return <ExpenseChartsPage />;
     }
     return <Dashboard />;
   };

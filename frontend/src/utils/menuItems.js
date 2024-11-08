@@ -4,7 +4,6 @@ export const menuItems = [
     {
         id: 1,
         title: 'Home',
-        icon: dashboard,
         link: '/dashboard'
     },
     {
@@ -31,4 +30,10 @@ export const menuItems = [
         icon: book,   // Use the book icon
         link: "/notes"   // Link to the Notes page
     },
+    {
+        id: 7,
+        title: "Expense Charts", // Adjust title as necessary
+        icon: book,
+        link: "/expense-charts"
+    }
 ];

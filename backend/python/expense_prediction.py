@@ -42,10 +42,9 @@ budget_predictions = model.predict(future_data_dummies)
 future_data['Prediction'] = budget_predictions
 
 # Apply the required transformations to the prediction values
-future_data['Prediction'] = future_data['Prediction'].apply(lambda x: abs(x))  # Convert negative values to positive
-future_data['Prediction'] = future_data['Prediction'].apply(lambda x: x * 100 if x < 100 else x)  # Multiply values < 100 by 100
+future_data['Prediction'] = future_data['Prediction'].apply(lambda x: abs(x))  
+future_data['Prediction'] = future_data['Prediction'].apply(lambda x: x * 100 if x < 100 else x)
 
-# Prepare the predictions for output as a list of dictionaries
 predictions = []
 for month in range(1, 13):
     month_data = future_data[future_data['Month'] == month]
