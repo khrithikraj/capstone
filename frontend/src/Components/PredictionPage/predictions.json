@@ -1,0 +1,542 @@
+[
+  {
+    "month": "2025-01",
+    "category": "Clothing",
+    "prediction": 8338.934673873708
+  },
+  {
+    "month": "2025-01",
+    "category": "Education",
+    "prediction": 3561.545895821415
+  },
+  {
+    "month": "2025-01",
+    "category": "Entertainment",
+    "prediction": 7924.212015972706
+  },
+  {
+    "month": "2025-01",
+    "category": "Groceries",
+    "prediction": 8547.126119807363
+  },
+  {
+    "month": "2025-01",
+    "category": "Health",
+    "prediction": 8939.083543324843
+  },
+  {
+    "month": "2025-01",
+    "category": "Other",
+    "prediction": 8433.765496225096
+  },
+  {
+    "month": "2025-01",
+    "category": "Subscriptions",
+    "prediction": 7626.509307456436
+  },
+  {
+    "month": "2025-01",
+    "category": "Takeaways",
+    "prediction": 8240.128248225432
+  },
+  {
+    "month": "2025-01",
+    "category": "Travelling",
+    "prediction": 8665.68852222059
+  },
+  {
+    "month": "2025-02",
+    "category": "Clothing",
+    "prediction": 8187.179165840847
+  },
+  {
+    "month": "2025-02",
+    "category": "Education",
+    "prediction": 3409.790387788322
+  },
+  {
+    "month": "2025-02",
+    "category": "Entertainment",
+    "prediction": 7772.456507939845
+  },
+  {
+    "month": "2025-02",
+    "category": "Groceries",
+    "prediction": 8395.370611774502
+  },
+  {
+    "month": "2025-02",
+    "category": "Health",
+    "prediction": 8787.328035291983
+  },
+  {
+    "month": "2025-02",
+    "category": "Other",
+    "prediction": 8282.009988192236
+  },
+  {
+    "month": "2025-02",
+    "category": "Subscriptions",
+    "prediction": 7474.753799423575
+  },
+  {
+    "month": "2025-02",
+    "category": "Takeaways",
+    "prediction": 8088.372740192572
+  },
+  {
+    "month": "2025-02",
+    "category": "Travelling",
+    "prediction": 8513.933014187729
+  },
+  {
+    "month": "2025-03",
+    "category": "Clothing",
+    "prediction": 8035.423657807987
+  },
+  {
+    "month": "2025-03",
+    "category": "Education",
+    "prediction": 3258.0348797556944
+  },
+  {
+    "month": "2025-03",
+    "category": "Entertainment",
+    "prediction": 7620.700999906985
+  },
+  {
+    "month": "2025-03",
+    "category": "Groceries",
+    "prediction": 8243.615103741642
+  },
+  {
+    "month": "2025-03",
+    "category": "Health",
+    "prediction": 8635.572527259123
+  },
+  {
+    "month": "2025-03",
+    "category": "Other",
+    "prediction": 8130.254480159376
+  },
+  {
+    "month": "2025-03",
+    "category": "Subscriptions",
+    "prediction": 7322.998291390715
+  },
+  {
+    "month": "2025-03",
+    "category": "Takeaways",
+    "prediction": 7936.617232159711
+  },
+  {
+    "month": "2025-03",
+    "category": "Travelling",
+    "prediction": 8362.177506154869
+  },
+  {
+    "month": "2025-04",
+    "category": "Clothing",
+    "prediction": 7883.668149775127
+  },
+  {
+    "month": "2025-04",
+    "category": "Education",
+    "prediction": 3106.2793717226014
+  },
+  {
+    "month": "2025-04",
+    "category": "Entertainment",
+    "prediction": 7468.945491874125
+  },
+  {
+    "month": "2025-04",
+    "category": "Groceries",
+    "prediction": 8091.859595708782
+  },
+  {
+    "month": "2025-04",
+    "category": "Health",
+    "prediction": 8483.817019226262
+  },
+  {
+    "month": "2025-04",
+    "category": "Other",
+    "prediction": 7978.498972126516
+  },
+  {
+    "month": "2025-04",
+    "category": "Subscriptions",
+    "prediction": 7171.242783357855
+  },
+  {
+    "month": "2025-04",
+    "category": "Takeaways",
+    "prediction": 7784.861724126851
+  },
+  {
+    "month": "2025-04",
+    "category": "Travelling",
+    "prediction": 8210.421998122009
+  },
+  {
+    "month": "2025-05",
+    "category": "Clothing",
+    "prediction": 7731.912641742267
+  },
+  {
+    "month": "2025-05",
+    "category": "Education",
+    "prediction": 2954.523863689974
+  },
+  {
+    "month": "2025-05",
+    "category": "Entertainment",
+    "prediction": 7317.189983841265
+  },
+  {
+    "month": "2025-05",
+    "category": "Groceries",
+    "prediction": 7940.104087675922
+  },
+  {
+    "month": "2025-05",
+    "category": "Health",
+    "prediction": 8332.061511193402
+  },
+  {
+    "month": "2025-05",
+    "category": "Other",
+    "prediction": 7826.743464093655
+  },
+  {
+    "month": "2025-05",
+    "category": "Subscriptions",
+    "prediction": 7019.487275324995
+  },
+  {
+    "month": "2025-05",
+    "category": "Takeaways",
+    "prediction": 7633.106216093991
+  },
+  {
+    "month": "2025-05",
+    "category": "Travelling",
+    "prediction": 8058.666490089148
+  },
+  {
+    "month": "2025-06",
+    "category": "Clothing",
+    "prediction": 7580.1571337094065
+  },
+  {
+    "month": "2025-06",
+    "category": "Education",
+    "prediction": 2802.768355656881
+  },
+  {
+    "month": "2025-06",
+    "category": "Entertainment",
+    "prediction": 7165.434475808404
+  },
+  {
+    "month": "2025-06",
+    "category": "Groceries",
+    "prediction": 7788.348579643061
+  },
+  {
+    "month": "2025-06",
+    "category": "Health",
+    "prediction": 8180.306003160542
+  },
+  {
+    "month": "2025-06",
+    "category": "Other",
+    "prediction": 7674.987956060795
+  },
+  {
+    "month": "2025-06",
+    "category": "Subscriptions",
+    "prediction": 6867.7317672921345
+  },
+  {
+    "month": "2025-06",
+    "category": "Takeaways",
+    "prediction": 7481.350708061131
+  },
+  {
+    "month": "2025-06",
+    "category": "Travelling",
+    "prediction": 7906.910982056288
+  },
+  {
+    "month": "2025-07",
+    "category": "Clothing",
+    "prediction": 7428.401625676546
+  },
+  {
+    "month": "2025-07",
+    "category": "Education",
+    "prediction": 2651.0128476242535
+  },
+  {
+    "month": "2025-07",
+    "category": "Entertainment",
+    "prediction": 7013.678967775544
+  },
+  {
+    "month": "2025-07",
+    "category": "Groceries",
+    "prediction": 7636.593071610201
+  },
+  {
+    "month": "2025-07",
+    "category": "Health",
+    "prediction": 8028.550495127682
+  },
+  {
+    "month": "2025-07",
+    "category": "Other",
+    "prediction": 7523.232448027935
+  },
+  {
+    "month": "2025-07",
+    "category": "Subscriptions",
+    "prediction": 6715.976259259274
+  },
+  {
+    "month": "2025-07",
+    "category": "Takeaways",
+    "prediction": 7329.5952000282705
+  },
+  {
+    "month": "2025-07",
+    "category": "Travelling",
+    "prediction": 7755.155474023428
+  },
+  {
+    "month": "2025-08",
+    "category": "Clothing",
+    "prediction": 7276.646117643686
+  },
+  {
+    "month": "2025-08",
+    "category": "Education",
+    "prediction": 2499.2573395911604
+  },
+  {
+    "month": "2025-08",
+    "category": "Entertainment",
+    "prediction": 6861.923459742684
+  },
+  {
+    "month": "2025-08",
+    "category": "Groceries",
+    "prediction": 7484.837563577341
+  },
+  {
+    "month": "2025-08",
+    "category": "Health",
+    "prediction": 7876.794987094821
+  },
+  {
+    "month": "2025-08",
+    "category": "Other",
+    "prediction": 7371.476939995075
+  },
+  {
+    "month": "2025-08",
+    "category": "Subscriptions",
+    "prediction": 6564.220751226414
+  },
+  {
+    "month": "2025-08",
+    "category": "Takeaways",
+    "prediction": 7177.83969199541
+  },
+  {
+    "month": "2025-08",
+    "category": "Travelling",
+    "prediction": 7603.399965990568
+  },
+  {
+    "month": "2025-09",
+    "category": "Clothing",
+    "prediction": 7124.890609610826
+  },
+  {
+    "month": "2025-09",
+    "category": "Education",
+    "prediction": 2347.501831558533
+  },
+  {
+    "month": "2025-09",
+    "category": "Entertainment",
+    "prediction": 6710.167951709824
+  },
+  {
+    "month": "2025-09",
+    "category": "Groceries",
+    "prediction": 7333.082055544481
+  },
+  {
+    "month": "2025-09",
+    "category": "Health",
+    "prediction": 7725.039479061961
+  },
+  {
+    "month": "2025-09",
+    "category": "Other",
+    "prediction": 7219.721431962214
+  },
+  {
+    "month": "2025-09",
+    "category": "Subscriptions",
+    "prediction": 6412.465243193554
+  },
+  {
+    "month": "2025-09",
+    "category": "Takeaways",
+    "prediction": 7026.08418396255
+  },
+  {
+    "month": "2025-09",
+    "category": "Travelling",
+    "prediction": 7451.644457957707
+  },
+  {
+    "month": "2025-10",
+    "category": "Clothing",
+    "prediction": 6973.1351015779655
+  },
+  {
+    "month": "2025-10",
+    "category": "Education",
+    "prediction": 2195.74632352544
+  },
+  {
+    "month": "2025-10",
+    "category": "Entertainment",
+    "prediction": 6558.412443676963
+  },
+  {
+    "month": "2025-10",
+    "category": "Groceries",
+    "prediction": 7181.32654751162
+  },
+  {
+    "month": "2025-10",
+    "category": "Health",
+    "prediction": 7573.283971029101
+  },
+  {
+    "month": "2025-10",
+    "category": "Other",
+    "prediction": 7067.965923929354
+  },
+  {
+    "month": "2025-10",
+    "category": "Subscriptions",
+    "prediction": 6260.7097351606935
+  },
+  {
+    "month": "2025-10",
+    "category": "Takeaways",
+    "prediction": 6874.32867592969
+  },
+  {
+    "month": "2025-10",
+    "category": "Travelling",
+    "prediction": 7299.888949924847
+  },
+  {
+    "month": "2025-11",
+    "category": "Clothing",
+    "prediction": 6821.379593545105
+  },
+  {
+    "month": "2025-11",
+    "category": "Education",
+    "prediction": 2043.9908154928125
+  },
+  {
+    "month": "2025-11",
+    "category": "Entertainment",
+    "prediction": 6406.656935644103
+  },
+  {
+    "month": "2025-11",
+    "category": "Groceries",
+    "prediction": 7029.57103947876
+  },
+  {
+    "month": "2025-11",
+    "category": "Health",
+    "prediction": 7421.528462996241
+  },
+  {
+    "month": "2025-11",
+    "category": "Other",
+    "prediction": 6916.210415896494
+  },
+  {
+    "month": "2025-11",
+    "category": "Subscriptions",
+    "prediction": 6108.954227127833
+  },
+  {
+    "month": "2025-11",
+    "category": "Takeaways",
+    "prediction": 6722.57316789683
+  },
+  {
+    "month": "2025-11",
+    "category": "Travelling",
+    "prediction": 7148.133441891987
+  },
+  {
+    "month": "2025-12",
+    "category": "Clothing",
+    "prediction": 6669.624085512245
+  },
+  {
+    "month": "2025-12",
+    "category": "Education",
+    "prediction": 1892.2353074597195
+  },
+  {
+    "month": "2025-12",
+    "category": "Entertainment",
+    "prediction": 6254.901427611243
+  },
+  {
+    "month": "2025-12",
+    "category": "Groceries",
+    "prediction": 6877.8155314459
+  },
+  {
+    "month": "2025-12",
+    "category": "Health",
+    "prediction": 7269.7729549633805
+  },
+  {
+    "month": "2025-12",
+    "category": "Other",
+    "prediction": 6764.454907863634
+  },
+  {
+    "month": "2025-12",
+    "category": "Subscriptions",
+    "prediction": 5957.198719094973
+  },
+  {
+    "month": "2025-12",
+    "category": "Takeaways",
+    "prediction": 6570.817659863969
+  },
+  {
+    "month": "2025-12",
+    "category": "Travelling",
+    "prediction": 6996.377933859127
+  }
+]

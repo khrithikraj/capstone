@@ -1,17 +1,11 @@
-import {dashboard, expenses, transactions, trend} from '../utils/Icons'
+import { dashboard, expenses, trend, book } from '../utils/Icons';  // Import the 'book' icon
 
 export const menuItems = [
     {
         id: 1,
-        title: 'Dashboard',
+        title: 'Home',
         icon: dashboard,
         link: '/dashboard'
-    },
-    {
-        id: 2,
-        title: "View Transactions",
-        icon: transactions,
-        link: "/dashboard",
     },
     {
         id: 3,
@@ -25,4 +19,16 @@ export const menuItems = [
         icon: expenses,
         link: "/dashboard",
     },
-]
+    {
+        id: 5,
+        title: "Prediction",
+        icon: dashboard,
+        link: "/prediction"
+    },
+    {
+        id: 6,   // Unique ID for the Notes page
+        title: "Notes",
+        icon: book,   // Use the book icon
+        link: "/notes"   // Link to the Notes page
+    },
+];

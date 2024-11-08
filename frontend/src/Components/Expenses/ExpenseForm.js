@@ -1,40 +1,54 @@
-import React, { useState } from 'react'
-import styled from 'styled-components'
-import DatePicker from 'react-datepicker'
+import React, { useState } from 'react';
+import styled from 'styled-components';
+import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
 import { useGlobalContext } from '../../context/globalContext';
 import Button from '../Button/Button';
 import { plus } from '../../utils/Icons';
 
-
 function ExpenseForm() {
-    const {addExpense, error, setError} = useGlobalContext()
+    const { addExpense, error, setError } = useGlobalContext();
     const [inputState, setInputState] = useState({
         title: '',
         amount: '',
         date: '',
         category: '',
         description: '',
-    })
+        currency: 'INR', // Default currency
+    });
 
-    const { title, amount, date, category,description } = inputState;
+    const { title, amount, date, category, description, currency } = inputState;
 
     const handleInput = name => e => {
-        setInputState({...inputState, [name]: e.target.value})
-        setError('')
-    }
+        setInputState({ ...inputState, [name]: e.target.value });
+        setError('');
+    };
 
     const handleSubmit = e => {
-        e.preventDefault()
-        addExpense(inputState)
+        e.preventDefault();
+        
+        // Convert amount to Rupees before submitting
+        let amountInRupees = 0;
+        if (currency === 'INR') {
+            amountInRupees = parseFloat(amount); // No conversion needed
+        } else if (currency === 'USD') {
+            amountInRupees = parseFloat(amount) * 80; // 1 USD = 80 INR
+        } else if (currency === 'GBP') {
+            amountInRupees = parseFloat(amount) * 100; // 1 GBP = 100 INR
+        } else if (currency === 'EUR') {
+            amountInRupees = parseFloat(amount) * 90; // 1 EUR = 90 INR
+        }
+
+        addExpense({ ...inputState, amount: amountInRupees });
         setInputState({
             title: '',
             amount: '',
             date: '',
             category: '',
             description: '',
-        })
-    }
+            currency: 'INR', // Reset currency to default
+        });
+    };
 
     return (
         <ExpenseFormStyled onSubmit={handleSubmit}>
@@ -49,12 +63,21 @@ function ExpenseForm() {
                 />
             </div>
             <div className="input-control">
-                <input value={amount}  
-                    type="text" 
+                <input 
+                    value={amount}  
+                    type="number" 
                     name={'amount'} 
                     placeholder={'Expense Amount'}
                     onChange={handleInput('amount')} 
                 />
+            </div>
+            <div className="input-control">
+                <select value={currency} name="currency" id="currency" onChange={handleInput('currency')}>
+                    <option value="INR">Rupees (INR)</option>
+                    <option value="USD">Dollars (USD)</option>
+                    <option value="GBP">Pounds (GBP)</option>
+                    <option value="EUR">Euros (EUR)</option>
+                </select>
             </div>
             <div className="input-control">
                 <DatePicker 
@@ -63,20 +86,21 @@ function ExpenseForm() {
                     selected={date}
                     dateFormat="dd/MM/yyyy"
                     onChange={(date) => {
-                        setInputState({...inputState, date: date})
+                        setInputState({ ...inputState, date: date });
                     }}
                 />
             </div>
             <div className="selects input-control">
                 <select required value={category} name="category" id="category" onChange={handleInput('category')}>
-                    <option value="" disabled >Select Option</option>
+                    <option value="" disabled>Select Option</option>
                     <option value="education">Education</option>
                     <option value="groceries">Groceries</option>
                     <option value="health">Health</option>
                     <option value="subscriptions">Subscriptions</option>
                     <option value="takeaways">Takeaways</option>
                     <option value="clothing">Clothing</option>  
-                    <option value="travelling">Travelling</option>  
+                    <option value="travelling">Travelling</option> 
+                    <option value="Entertainment">Entertainment</option>  
                     <option value="other">Other</option>  
                 </select>
             </div>
@@ -89,7 +113,7 @@ function ExpenseForm() {
                     icon={plus}
                     bPad={'.8rem 1.6rem'}
                     bRad={'30px'}
-                    bg={'var(--color-accent'}
+                    bg={'var(--color-accent)'}
                     color={'#fff'}
                 />
             </div>
@@ -97,12 +121,11 @@ function ExpenseForm() {
     )
 }
 
-
 const ExpenseFormStyled = styled.form`
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    input, textarea, select{
+    input, textarea, select {
         font-family: inherit;
         font-size: inherit;
         outline: none;
@@ -114,34 +137,35 @@ const ExpenseFormStyled = styled.form`
         resize: none;
         box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.06);
         color: rgba(34, 34, 96, 0.9);
-        &::placeholder{
+        &::placeholder {
             color: rgba(34, 34, 96, 0.4);
         }
     }
-    .input-control{
-        input{
+    .input-control {
+        input {
             width: 100%;
         }
     }
 
-    .selects{
+    .selects {
         display: flex;
         justify-content: flex-end;
-        select{
+        select {
             color: rgba(34, 34, 96, 0.4);
-            &:focus, &:active{
+            &:focus, &:active {
                 color: rgba(34, 34, 96, 1);
             }
         }
     }
 
-    .submit-btn{
-        button{
+    .submit-btn {
+        button {
             box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.06);
-            &:hover{
+            &:hover {
                 background: var(--color-green) !important;
             }
         }
     }
 `;
-export default ExpenseForm
+
+export default ExpenseForm;
